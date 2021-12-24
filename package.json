@@ -1,0 +1,22 @@
+{
+  "main": "lib/binding.js",
+  "dependencies": {
+    "node-addon-api": "^1.1.0"
+  },
+  "scripts": {
+    "test": "node --napi-modules ./test/test_binding.js"
+  },
+  "gypfile": true,
+  "name": "tdc-falcon",
+  "version": "1.0.0",
+  "description": "Falcon-512 bindings for Tidecoin",
+  "keywords": [
+    "Falcon-512",
+    "Tidecoin",
+    "Post-Quantum",
+    "cryptography",
+    "NIST"
+  ],
+  "author": "Yar Sawyer",
+  "license": "ISC"
+}
